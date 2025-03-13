@@ -1,76 +1,64 @@
-# GeekCrow Games
+![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
-Este é o repositório do frontend de um ecommerce desenvolvido durante o curso "React Avançado: Crie aplicações com NextJS, Strapi e mais" do professor Willian Justen de Vasconcellos na Udemy.
+This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
+![ci](https://github.com/React-Avancado/boilerplate-apps-router/workflows/ci/badge.svg)
 
-## Sobre o Projeto
+## What is inside?
 
-GeekCrow Games é um ecommerce focado na venda de jogos eletrônicos. Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+This project uses lot of stuff as:
 
-- **Next.js**: Framework React para produção.
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Strapi**: CMS headless para gerenciamento de conteúdo.
-- **GraphQL**: Linguagem de consulta para APIs.
-- **Styled Components**: Biblioteca para estilização de componentes.
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Storybook](https://storybook.js.org/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
 
-## Funcionalidades
+## Getting Started
 
-- Listagem de produtos
-- Detalhes do produto
-- Carrinho de compras
-- Autenticação de usuário
-- Pagamento
-
-## Screenshots
-
-Em Construção
-
-## Como Executar o Projeto
-
-Para executar o projeto localmente, siga os passos abaixo:
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/JuanSalles/GCGamesFrontend .
-```
-
-2. Instale as dependências:
-
-```bash
-npm install
-```
-
-3. Execute o projeto:
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
 ```
 
-O projeto estará disponível em `http://localhost:3000`.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Skills Obtidas
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-- Configuração de projetos com Next.js
-- Criação de APIs com Strapi
-- Utilização de GraphQL para consultas de dados
-- Estilização de componentes com Styled Components
-- Autenticação e autorização de usuários
-- Integração de métodos de pagamento
-- Boas práticas de desenvolvimento com React e Next.js
+## Commands
 
-## Links Úteis
+- `dev`: runs your application on `localhost:3000`
+- `build`: creates the production build version
+- `start`: starts a simple server with the build production code
+- `lint`: runs the linter in all components and pages
+- `test`: runs jest to test all components and pages
+- `test:watch`: runs jest in watch mode
+- `storybook`: runs storybook on `localhost:6006`
+- `build-storybook`: create the build version of storybook
 
-- [Link do Curso na Udemy](https://www.udemy.com/course/react-avancado/)
-- [Repositório Backend](https://github.com/seu-usuario/GeekCrow-Games-backend)
+## Learn More
 
-## Contribuição
+To learn more about Next.js, take a look at the following resources:
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Licença
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Desenvolvido por [Juan Salles](https://github.com/JuanSalles).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Use in your project
+
+```
+  npx create-next-app --example https://github.com/JuanSalles/BoilerplateNext
+```
